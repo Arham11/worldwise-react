@@ -4,7 +4,6 @@ import styles from "./Button.module.css";
 
 function ButtonBack({ children }) {
   const navigate = useNavigate();
-  console.log(styles);
   return (
     <div>
       <Button
