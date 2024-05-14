@@ -47,6 +47,30 @@
         "lng": "-2.13128394200588"
       },
       "id": 98443198
+    },
+    {
+      "cityName": "English Channel and North Sea",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-05-14T06:00:39.836Z",
+      "notes": "hello arham",
+      "position": {
+        "lat": "49.58549037447863",
+        "lng": "-0.09532758034103583"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Kuala Lumpur",
+      "country": "Malaysia",
+      "emoji": "🇲🇾",
+      "date": "2024-05-14T06:17:00.287Z",
+      "notes": "Trip by Cousin",
+      "position": {
+        "lat": "3.138561927194988",
+        "lng": "101.70606835430064"
+      },
+      "id": 98443201
     }
   ]
 }
