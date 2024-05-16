@@ -49,18 +49,6 @@
       "id": 98443198
     },
     {
-      "cityName": "English Channel and North Sea",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2024-05-14T06:00:39.836Z",
-      "notes": "hello arham",
-      "position": {
-        "lat": "49.58549037447863",
-        "lng": "-0.09532758034103583"
-      },
-      "id": 98443199
-    },
-    {
       "cityName": "Kuala Lumpur",
       "country": "Malaysia",
       "emoji": "🇲🇾",
@@ -71,6 +59,42 @@
         "lng": "101.70606835430064"
       },
       "id": 98443201
+    },
+    {
+      "cityName": "Genouilly",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-05-16T12:09:07.013Z",
+      "notes": "sdk",
+      "position": {
+        "lat": "47.18971246448421",
+        "lng": "1.8896484375000002"
+      },
+      "id": 98443202
+    },
+    {
+      "cityName": "Denmark",
+      "country": "Denmark",
+      "emoji": "🇩🇰",
+      "date": "2024-05-16T12:10:35.537Z",
+      "notes": "Denmark\n",
+      "position": {
+        "lat": "55.65279803318956",
+        "lng": "10.195312500000002"
+      },
+      "id": 98443204
+    },
+    {
+      "cityName": "Hoverberg",
+      "country": "Sweden",
+      "emoji": "🇸🇪",
+      "date": "2024-05-16T12:14:34.297Z",
+      "notes": "ka",
+      "position": {
+        "lat": "62.81501879409271",
+        "lng": "12.7880859375"
+      },
+      "id": 98443205
     }
   ]
 }
