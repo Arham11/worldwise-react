@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import styles from "./Login.module.css";
 import { useAuth } from "../contexts/FakeAuthContext";
 import { useNavigate } from "react-router-dom";
+import Button from "../components/Button";
 
 export default function Login() {
   const navigate = useNavigate();
@@ -9,7 +10,7 @@ export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
   const [email, setEmail] = useState("arhamchowdhry@gmail.com");
   const [password, setPassword] = useState("qwerty");
-  const { login, logout, user, isAuthenticated } = useAuth();
+  const { login, isAuthenticated } = useAuth();
 
   function handleLogin(e) {
     e.preventDefault();
@@ -18,6 +19,7 @@ export default function Login() {
 
   useEffect(
     function () {
+      debugger;
       if (isAuthenticated) {
         navigate("/app", { replace: true });
       }
@@ -48,9 +50,9 @@ export default function Login() {
         </div>
 
         <div>
-          <button type="primary" onClick={(e) => handleLogin(e)}>
+          <Button type="primary" onClick={(e) => handleLogin(e)}>
             Login
-          </button>
+          </Button>
         </div>
       </form>
     </main>
